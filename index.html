@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Calculator</title>
+   <link rel="stylesheet" href="styles.css" type="text/css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+   <script src="../Practice02 (Calculator)/main.js" defer></script>
+   <script src="../Practice02 (Calculator)/fontawesome.js"></script>
+</head>
+
+<body>
+   <div class="container">
+      <div class="title">CALCULATOR</div>
+      <div class="display" id="display"></div>
+      <div class="button">
+         <table>
+            <tr>
+               <th> <button id="btn-clear" class="btn-clear"> <i class="fa-solid fa-c"></i> </button> </th>
+               <th> <button id="btn-delete" class="btn-delete"> <i class="fa-solid fa-delete-left"></i> </button> </th>
+               <th> <button id="btn-operator" value="/" class="btn-operator">&divide;</button> </th>
+               <th> <button id="btn-operator" value="*" class="btn-operator">&times;</button></th>
+            </tr>
+
+            <tr>
+               <td> <button type="button" id="num" value="7" class="num">7</button> </td>
+               <td> <button id="num" value="8" class="num">8</button> </td>
+               <td> <button id="num" value="9" class="num">9</button> </td>
+               <td> <button id="btn-operator" value="-" class="btn-operator">&minus;</button> </td>
+            </tr>
+
+            <tr>
+               <td> <button id="num" value="4" class="num">4</button> </td>
+               <td> <button id="num" value="5" class="num">5</button> </td>
+               <td> <button id="num" value="6" class="num">6</button> </td>
+               <td> <button id="btn-operator" value="+" class="btn-operator">&plus;</button> </td>
+            </tr>
+
+            <tr>
+               <td> <button id="num" value="1" class="num">1</button> </td>
+               <td> <button id="num" value="2" class="num">2</button> </td>
+               <td> <button id="num" value="3" class="num">3</button> </td>
+               <td rowspan="2"> <button id="btn-equal" class="btn-equal">&equals;</button> </td>
+            </tr>
+
+            <tr>
+               <td colspan="2"> <button id="num" value="0" class="num-0">0</button> </td>
+               <td> <button id="btn-dot" value="." class="btn-dot">.</button> </td>
+            </tr>
+         </table>
+      </div>
+   </div>
+</body>
+
+</html>

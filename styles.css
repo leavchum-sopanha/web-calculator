@@ -1,0 +1,131 @@
+body {
+   background-image: linear-gradient(to bottom right, rgb(66, 227, 227), rgb(23, 23, 234));
+   font-family: sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   width: 100vw;
+   margin: 0;
+   padding: auto;
+   overflow: hidden;
+}
+
+.container {
+   background-color: rgb(20, 60, 108);
+   display: grid;
+   padding: 0 2% 2% 2%;
+   border-radius: 15px;
+   box-shadow: 0 0 5px black;
+   border: 2px solid black;
+}
+.title {
+   color: white;
+   font-size: 20px;
+   font-weight: bold;
+   margin: 0;
+   padding: 8%;
+   display: flex;
+   justify-content: center;
+   place-items: center;
+}
+.display {
+   border: 5px solid rgb(242, 249, 55);
+   border-radius: 10px;
+   word-wrap: unset;
+   overflow: hidden;
+   font-weight: bold;
+   color: white;
+   background-color: rgb(19, 77, 148);
+   display: grid;
+   align-items: center;
+   justify-content: right;
+   font-size: 30px;
+   width: 250px;
+   height: 80px;
+   padding-left: 15px;
+   padding-right: 10px;
+   margin: 1% 0 8% 0;
+
+}
+.button {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.num-0 {
+   font-weight: bold;
+   font-size: 20px;
+   height: 60px;
+   width: 130px;
+   border-radius: 30px;
+   margin: 3px;
+   border: none;
+   transition: opacity 0.15s;
+}
+.num {
+   font-weight: bold;
+   font-size: 20px;
+   height: 60px;
+   width: 60px;
+   border-radius: 30px;
+   margin: 3px;
+   border: none;
+   transition: opacity 0.15s;
+}
+
+.btn-delete,.btn-clear {
+   background-color: red;
+   font-weight: bold;
+   font-size: 20px;
+   height: 60px;
+   width: 60px;
+   color: white;
+   border: none;
+   border-radius: 30px;
+   margin: 3px;
+   border: none;
+   transition: opacity 0.15s;
+}
+ .btn-dot {
+   font-weight: bold;
+   font-size: 20px;
+   height: 60px;
+   width: 60px;
+   border-radius: 30px;
+   border: none;
+   margin: 3px;
+   transition: opacity 0.15s;
+}
+.btn-operator {
+   background-color: rgb(24, 224, 24);
+   color: white;
+   font-size: 30px;
+   height: 60px;
+   width: 60px;
+   border-radius: 30px;
+   margin: 3px;
+   border: none;
+   transition: opacity 0.15s;
+}
+.btn-equal {
+   background-color: rgb(243, 177, 22);
+   color: white;
+   font-size: 30px;
+   height: 123px;
+   width: 60px;
+   border-radius: 30px;
+   margin: 3px;
+   border: none;
+   transition: opacity 0.15s;
+}
+
+.btn-clear:hover, .btn-delete:hover, .btn-dot:hover, .btn-operator:hover, .btn-equal:hover,.num:hover , .num-0:hover {
+   opacity: 0.9;
+}
+
+.btn-clear:active, .btn-delete:active, .btn-dot:active, .btn-operator:active, .btn-equal:active,.num:active , .num-0:active {
+   opacity: 0.7;
+   box-shadow: 0 0 10px black;
+   border: 2px solid black;
+}
